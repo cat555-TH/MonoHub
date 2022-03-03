@@ -1,0 +1,78 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MonoHub-basic", "Synapse")
+
+--General Script
+local Tab = Window:NewTab("General")
+local Section = Tab:NewSection("General(Work with all game)")
+
+Section:NewButton("Anti Afk-1", "Anti Afk-1", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
+end)
+Section:NewButton("Anti Afk-2", "Anti Afk-2", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GpP3QYBd", true))()
+end)
+Section:NewButton("Inf Jump", "Inf Jump", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Saag1Kfd", true))()
+end)
+Section:NewButton("infinity yield", "infinity yield", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+local Section = Tab:NewSection("General(Work for some game)")
+Section:NewButton("OwlHub", "OwlHub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+Section:NewButton("VG_Hub", "VG_Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+--Xenon Hub
+
+local Tab = Window:NewTab("King Legacy")
+local Section = Tab:NewSection("Xenon Hub")
+
+Section:NewButton("King Legacy", "Xenon Hub", function()
+    _G.Keys = "2MIFA-TPF02-8KQKB"
+_G.Color = Color3.fromRGB(80, 245, 245)
+_G.Color2 = Color3.fromRGB(0, 151, 156)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))();
+end)
+
+local Tab = Window:NewTab("Blox Fruit")
+local Section = Tab:NewSection("Xenon Hub")
+
+Section:NewButton("Normal", "Xenon Hub", function()
+    _G.Keys = "XVPT1-VYZIW-NMPX8"
+_G.Color = Color3.fromRGB(250, 250, 250)
+_G.Color2 = Color3.fromRGB(0, 0, 0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))();
+end)
+
+Section:NewButton("Kaiton", "Xenon Hub", function()
+    _G.Keys = "XVPT1-VYZIW-NMPX8"
+_G.Scripts_Modes = "[UPDATE 17] Blox Fruits"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))();
+end)
+
+Section:NewButton("Max", "Xenon Hub", function()
+    _G.Scripts_Modes = "1DayChallenge"
+_G.Keys = "XVPT1-VYZIW-NMPX8"
+_G.Color = Color3.fromRGB(250, 250, 250)
+_G.Color2 = Color3.fromRGB(0, 0, 0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))();
+end)
+
+--Bad Business
+local Tab = Window:NewTab("Bad Business")
+local Section = Tab:NewSection("Bad Business Script")
+
+Section:NewButton("Bad Business Gui", "Gui Script(Google)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Lk9v3xYy"))()
+end)
+
+--Build a boat
+local Tab = Window:NewTab("Build a boat")
+local Section = Tab:NewSection("Build a boat Script")
+
+Section:NewButton("Build a boat Auto-farm", "Auto-farm Script(Google)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sRXneSAg"))()
+end)
